@@ -1,0 +1,96 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-grid {
+    width: 1200px;
+    height: 920px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: yellow;
+
+}
+.cabecalho {
+   background-color:black;
+   display: flex; 
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 50px 0 50px;
+
+}
+.buscar {
+    
+   display: flex; 
+   justify-content: space-between;
+   align-items: center;
+   width: 250px;
+}
+.login {
+    
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+ }
+ nav {
+     background-color: #fff;
+ }
+.menu {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0 100px;    */
+}
+.menu a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 10px;
+    
+}
+.banner {
+    background-color:black;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px 0 50px;
+}
+.textoBanner{
+    color:white;
+    text-align: center;
+    margin: 0 180px;
+}
+.textoBanner p {
+    padding-bottom: 10px;
+}
+.promo {
+    background-color:black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 50px 10px; 
+
+}
+.promo p {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.imgPromo {
+    width: 230px;
+    height: 330px;
+    background-color: white;
+}
+header { 
+    background:black;
+    
+}
+header nav {
+    position: relative;
+    color:white;
+
+}
