@@ -1,0 +1,123 @@
+
+/*.menu .linkMenu {
+	text-decoration: none;
+	margin: 20px 10px 0px;
+	text-transform: uppercase;
+	color: blue;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}*/
+/* body {
+	width: 100%;
+	height: 100%;
+	
+} */
+/*Reset*/
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.linkMenu {
+	text-align: center;
+	width: 100%;
+	color:white;
+	background-color:white;
+	
+
+}
+.linkMenu a { 
+	text-transform: uppercase;
+	text-decoration: none;
+	color: black;
+	margin: 3%;
+	
+
+}
+.container{
+	display: flex; 
+    justify-content: space-between;
+    align-items: center;
+	background-color:black;
+}
+.buscar input, button {
+	margin: 10px;
+}
+.container-btn button {
+	margin: 10px;
+}
+body {
+	background-image: linear-gradient(to right,rgba(2,3,5), rgba(79,91,114));
+
+}
+.container-body{
+	padding:0 5% 0 5%;
+}
+.containerProdutos {
+	/*background-image: linear-gradient(to left, rgb(1,10,38),rgb(1,10,38), white);*/
+	background-color: rgb(1,10,38);
+	height: 1300px;
+}
+.container-procutosPromo {
+	width: 80%;
+}
+.produtosPromo{
+	display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.produtosPromo .produtosPromoBox {
+	margin: 20px 30px 30px 20px;
+	color: black;
+	background-color:white;
+	width: 230px;
+	height:330px;
+	text-align: center;	
+}
+h3 {
+	margin: 20px 0 8px auto;
+	color: black;
+	font-size: 17px;	
+}
+h2{
+	font-size: 45px;
+}
+.departamentos {
+	display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.departamentos .departamentosBox {
+	margin: 20px 30px 30px 20px;
+	color: black;
+	background-color:white;
+	width: 325px;
+	height:225px;
+	text-align: center;	
+}
+.banner {
+	display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.textoBanner {
+	color:white;
+	text-align: center;
+}
+.subtitulo {
+	Background-color:white;
+}
+footer {
+	background-color: rgb(196,196,196);
+	padding-bottom: 50px;
+	
+}
+.footerbox {
+	display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.departamentosFooter {
+	align-items: top;
+}
