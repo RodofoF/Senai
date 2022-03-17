@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Sahitya:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: auto; 
+    padding: 0; 
+    box-sizing: border-box;
+	font-family: "Sahitya", serif;
+}
+
+header{
+	background-color:black;
+}
+#container-grid  {
+	/* top right bottom left; */
+	/* margin: 0 10% 0 10%; */
+}
+.container-busca {
+	display: flex; 
+	justify-content: space-between;
+	align-items: center;
+}
+.subMenu{
+	background-color: #fff;
+}
+#container-grid2 {
+	/* margin: 0 10% 0 10%; */
+	display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+#container-grid2 a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: black;
+	padding:1%;
+}
+.inputBuscar {
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-weight: bold;
+	background-color:white;
+	width: 320px;
+	height: 40px;
+	border-radius: 10px;
+}
+.botaoBuscar {
+	width:100px;
+	height: 40px;
+	border-radius: 10px;
+	background-color:white;
+}
+.botaoLogin {
+	width: 80px;
+	height: 40px;
+	border-radius: 10px;
+	background-color:white;
+}
+.botaoFavoritos{
+	width: 30px;
+	height: 40px;
+	border-radius: 30px;
+	background-color:white;
+
+}
+/*background-image: linear-gradient(to right,rgba(2,3,5), rgba(79,91,114)); */	
+/******************************************************/
+body{
+	/* background-image: url(../img/Group\ 8\ \(1\).png); */
+	/* background-repeat: no-repeat; */
+	background-image: linear-gradient(to right,rgba(2,3,5), rgba(79,91,114)); */	
+}
+.banner {
+	height: 400px;
+	background-image: url(../img/pcGamer.jpg)
+}
+.conteudo-banner {
+	color:white;
+	font-family:"Roboto", sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content:space-between;	
+}
+.conteudo-banner h1{
+	font-size: 50px;
+}
+.conteudo-banner p {
+	font-size: 35px;
+}
+.conteudo-banner a{
+	font-size: 25px;
+	font-family:"Roboto", sans-serif;
+	text-decoration: none;
+	color:black;
+	font-weight:bold;
+	background-color: white;
+	padding: 1%;
+	border-radius: 5px;
+	margin-top: 1%;
+}
+.posicionamento-banner {
+	height: 100%;
+	display: flex;
+}
+.promo {
+	background-color:#020305;
+	height: 500px;
+}
+.subMenu p {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+
+/***************************/
+@media screen and (max-width: 768px){
+	* {
+		/* margin: auto; 
+		padding: 0; 
+		box-sizing: border-box;
+		font-family: "Sahitya", serif; */
+	}
+	header{
+		background-color:black;
+	}
+	#container-grid  {
+		/* top right bottom left; */
+		/* margin: 0 5% 0 5%; */
+	}
+	.container-busca {
+		/* display: flex; 
+		justify-content: space-between;
+		align-items: center; */
+	}
+	.subMenu{
+		background-color: #fff;
+	}
+	#container-grid2 {
+		/* margin: 0 5% 0 5%; */
+		/* display: flex; 
+		justify-content: space-between;
+		align-items: center; */
+	}
+	#container-grid2 a {
+		text-transform: uppercase;
+		text-decoration: none;
+		color: black;
+		padding:1%;
+	}
+	.linksMenu{
+		display:none;
+	}
+	.inputBuscar {
+		font-family:Georgia, 'Times New Roman', Times, serif;
+		font-weight: bold;
+		background-color:white;
+		width: 150px;
+		height: 40px;
+		border-radius: 10px;
+	}
+	.botaoBuscar {
+		width:auto;
+		height: 40px;
+		border-radius: 10px;
+		background-color:white;
+	}
+	.botaoLogin {
+		display: none;
+	}
+	.botaoFavoritos{
+		display: none;
+	
+	}
+	/*background-image: linear-gradient(to right,rgba(2,3,5), rgba(79,91,114)); */	
+	/******************************************************/
+	body{
+		/* background-image: url(../img/Group\ 8\ \(1\).png); */
+		/* background-repeat: no-repeat; */
+		background-color: black;
+	}
+	.banner {
+		background-color: red;
+	}
+	.conteudo-banner {
+		color:white;
+		font-family:"Roboto", sans-serif;
+		display: flex;
+		flex-direction: column;
+		justify-content:space-between;	
+	}
+	.conteudo-banner h1{
+		font-size: 25px;
+	}
+	.conteudo-banner p {
+		font-size: 15px;
+	}
+	.conteudo-banner a{
+		font-size: 18px;
+		font-family:"Roboto", sans-serif;
+		text-decoration: none;
+		color:black;
+		font-weight:bold;
+		background-color: white;
+		padding: 1%;
+		border-radius: 5px;
+		margin-top: 1%;
+	}
+	.posicionamento-banner {
+		height: 100%;
+		display: flex;
+	}
+	.promo {
+		background-color:#020305;
+		height: 500px;
+	}
+	.subMenu p {
+		font-weight: bold;
+		font-size: 20px;
+	}
+}
