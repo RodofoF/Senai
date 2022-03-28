@@ -7,6 +7,9 @@
     box-sizing: border-box;
 	font-family: "Sahitya", serif;
 }
+main {
+	height: 1400px;
+}
 
 header{
 	background-color:black;
@@ -137,6 +140,36 @@ body{
 	font-weight: bold;
 	font-size: 20px;
 }
+.box {
+	background-color:white;
+	width: 230px;
+	height: 330px;
+
+}
+.small-box {
+	
+	background-color:white;
+	width: 230px;
+	height: 110px;
+
+}
+.container-box {
+	
+	display: flex; 
+    justify-content: space-between;
+    align-items: center;
+	padding: 10px 0 10px 0;
+}
+.footerbox{
+	display: flex; 
+    justify-content: space-between;
+    align-items: center;
+	padding: 10px 0 10px 0;
+	color: white;
+}
+form {
+	padding: 10px 0 10px 0;
+}
 
 
 /***************************/
@@ -256,7 +289,7 @@ body{
 	}
 	.promo {
 		background-color:#020305;
-		height: 500px;
+		height: 2000px;
 	}
 	.subMenu p {
 		font-weight: bold;

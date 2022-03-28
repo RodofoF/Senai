@@ -24,7 +24,7 @@ $(document).ready(function() {
 
    let listaSlides = ["banner-pc", "banner-dia", "banner-pcGamer2"]
 
-   setInterval(mudarSlides, 1000);
+   setInterval(mudarSlides, 10000);
 
    function mudarSlides() {
        // Remove o slide anterior
